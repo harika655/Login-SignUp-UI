@@ -73,7 +73,7 @@ cd Login-SignUp-UI
 ![Signup Page](screenshots1/signuppage.png)
 
 ### Result page
-![result page](screenshots1/resultpage.png)
+![result page](screenshots1/outputpage.png)
 
 
 ---
