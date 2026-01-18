@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Signup card-->
+    <div class="card">
+        <h2>Create Account</h2>
+        <!--Signup Form-->
+        <form onsubmit="return validateSignup()">
+            <!--Full Name-->
+            <input type="text" id="name" placeholder="Full Name" required>
+            <!--Email-->
+            <input type="email" id="email" placeholder="Email" required>
+            <!--Password-->
+            <input type="password" id="password" placeholder="password" required>
+            <!--Confirm Password-->
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <!--Submit Form-->
+            <button type="submit">Sign Up</button>
+            <p>Already have an account?<a href="index.html">Login</a></p>
+        </form>
+    </div>
+    <script src="./validation.js"></script>
+    
+</body>
+</html>
